@@ -1,7 +1,6 @@
 const corsOptions = {
-  origin: [
-   "https://chat-box-client-iota.vercel.app"
-  ],
+  origin: "https://chat-box-client-iota.vercel.app",
+  
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 };
